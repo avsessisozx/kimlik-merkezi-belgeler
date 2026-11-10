@@ -23,9 +23,9 @@ onay gelince başla. Soru komut değildir. Gerekmedikçe boşta ajan çalıştı
 | Gerçek veri testi | Kullanıcı eve gidince kendi bilgisayarında yapacak. Şimdilik ajanlar sahte ama gerçeğe yakın veri üretip test eder. |
 | Tanılama aracı | Yazılacak. Kullanıcı dışa aktarma dosyasında çalıştırır, içeriksiz yapı raporu çıkar, rapor ajana yapıştırılır. (Telefon sayfası yok.) |
 | Şifreleme | Varsayılan **açık**, parolasız katman: anahtar Windows hesabına bağlı. İsteğe bağlı parola: kurtarma yolu kurulmadan eklenemez. Kapatılabilir. |
+| Kurtarma yolu | **B: kullanıcının seçtiği uzun kurtarma ifadesi** (kullanıcı kararı). Kurallar: en az 4 kelime ya da 20 karakter; kısa/gizli soru tarzı cevap yok; güç göstergesi ve bilinen zayıf ifadelerin reddi; ikinci kez yazarak doğrulama; ekranda açık uyarı: parola ve ifade ikisi de unutulursa veri kimse tarafından kurtarılamaz. |
 
 ### Karar bekleyenler
-- Kurtarma yolu: **A** 12 kelimelik kurtarma ifadesi (öneri) mi, **B** kullanıcının seçtiği uzun ifade mi?
 - Şifreleme iki katmanlı yapısını kullanıcı "doğru" diye net onaylamadı (son mesajı bunu ima ediyor ama doğrulanmalı).
 - Kod deposu public yapılmadan önce git geçmişi taraması sonucu sunulacak. Geçmiş temizliği gerekirse ayrıca onay.
 
