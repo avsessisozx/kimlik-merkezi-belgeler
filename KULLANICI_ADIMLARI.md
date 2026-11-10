@@ -5,7 +5,7 @@ Bu rehber, gerçek verinle ilk denemeyi yapman içindir. Hedef: ürünün en bü
 **Dürüst uyarı:** Üçüncü taraf menü adları (Google, Reddit, ChatGPT, Claude, DeepSeek, Gemini) bu ortamdan doğrulanamadı; aşağıda menü adı UYDURMUYORUM. Ekranda farklı gördüğünde ya da bir şey bulamadığında, ekrandaki yazıları bana yaz. Sorun çıkarsa her zaman önce "Hata raporunu kopyala" düğmesi.
 
 ## A. Kurulum (Windows)
-1. GitHub'da depoya gir, sağda **Releases** bölümünden **en son ön sürümü** (v0.1.1 ya da daha yenisi) aç.
+1. GitHub'da depoya gir, sağda **Releases** bölümünden **v0.1.1** (ön sürüm) sürümünü aç. (Depo private olduğu sürece yalnız sen görürsün; giriş yapmış olman gerekir.)
 2. `KimlikMerkezi-Kurulum-...exe` dosyasını indir.
 3. (İstersen) bütünlüğü kontrol et: indirme klasöründe PowerShell aç, `Get-FileHash .\KimlikMerkezi-Kurulum-....exe` yaz; çıkan SHA256 değeri, sürümdeki `SHA256SUMS.txt` ile aynı olmalı.
 4. Dosyaya çift tıkla. "Windows bilgisayarınızı korudu" çıkarsa (imzasız olduğu için):
@@ -13,6 +13,7 @@ Bu rehber, gerçek verinle ilk denemeyi yapman içindir. Hedef: ürünün en bü
    - Düğmeyi göremezsen dur ve bana yaz (Windows 11 Akıllı Uygulama Denetimi açıksa çıkmayabilir).
 5. Kurulum yönetici izni istemez. Bitince uygulamayı aç; **ilk açılış sihirbazı** veri klasörünü sorar.
 6. **Şifreleme varsayılan olarak AÇIK** gelir (Windows hesabına bağlı, parolasız). Parola eklemek istersen uygulamadaki **Güvenlik** sayfasından eklenir. Parola eklerken önce bir **kurtarma ifadesi** kurman istenir. Hem parolayı hem kurtarma ifadesini unutursan verin KURTARILAMAZ. İfadeyi bir kâğıda yaz ve güvenli bir yerde sakla. (Parola eklemek zorunlu değil.)
+   - **ÖNEMLİ:** Parola eklersen **Claude Desktop bu klasöre bağlanamaz** (bilinçli güvenlik kararı: parola Claude'un düz metin ayar dosyasına yazılamaz). Bu yüzden **önce Bölüm D'deki Claude testini yap, parolayı en son ekle.** Parolayı kaldırırsan Claude bağlantısı yeniden çalışır.
 7. Hata çıkarsa uygulamada **"Hata raporunu kopyala"** düğmesine bas, metni bana yapıştır.
 
 ## B. Veri arşivlerini iste (hazır olması saatler-günler sürer, önce bunu başlat)
@@ -24,6 +25,7 @@ Menü adlarını ben bilmiyorum; aşağıdakiler yön gösterir. Bulamazsan ekra
 5. Hepsi aynı anda gelmek zorunda değil. Gelen zip'i **açma**, olduğu gibi kullan.
 
 ## C. İçe aktarma (her zip için)
+0. Bir dosyanın tanınıp tanınmadığını önce görmek istersen **İçe aktar** ekranındaki **"Dosyayı denetle (içerik göstermez)"** düğmesini kullan: dosyayı seç, çıkan raporu kopyala. Rapor yalnız alan adı, tür ve sayı içerir; içeriğini göstermez. Dosya tanınmazsa bu raporu bana yapıştır.
 1. Uygulamada **İçe aktar** ekranını aç, zip'i seç.
 2. Ekranda **biçim raporu** görünür (dosya adları ve alan adları, kişisel içerik yok). Başarılıysa kaç kayıt eklendiği yazar.
 3. **Bir şey ters giderse** (dosya tanınmadı, hata, 0 kayıt, ya da "bozuk"): biçim raporunu ve hata metnini kopyalayıp bana yapıştır. Bu, içe aktarıcıyı gerçeğe göre düzeltmem için en değerli veri. İçerik değil yalnız yapı içerir.
