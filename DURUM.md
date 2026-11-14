@@ -22,3 +22,10 @@ Doğrulanmadı: gerçek Takeout/Reddit dosyaları; Türkçe Takeout adları; Red
 
 ## Kullanıcıdan bekleyen cevaplar
 DeepSeek uygulama adı; Redmi Note 10 Pro ve Galaxy Tab A9 Plus Android sürümü; Claude Code otomatik onay adımları.
+
+## 2026-11-14 devam notu (kullanıcı limiti %93; yalnız mevcut işler bitirilecek)
+- Yapıldı ve push edildi: Harita aralık hatası düzeltmesi (073dc51).
+- Sürüyor: (1) uygulama içi güncelleme (GitHub sürümleri, indirme ve kurma için ayrı onay, ilerleme çubuğu); (2) her dosya/klasör türünü içe aktarma (okunabilen eklenir, bozuk atlanır, ikili dosyalar yalnız kayıt).
+- Sonra: iki işi main'e birleştir, testler, push, paket.yml ile v0.1.2 ön sürümü.
+- HAFTALIK LİMİT SIFIRLANINCA (ertelendi): uzun belgeleri parçalayıp tamamını alma + anlam bazlı arama; "Sen kimsin" özet sayfası; mirasa bırakma güvenliği; "Claude'a ekle" izin varsayılanı; tema.
+- Kullanıcıdan bekleyen: depoyu public yapması, Ford PDF klasöründeki hata metni.
